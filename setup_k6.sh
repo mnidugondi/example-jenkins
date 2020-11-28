@@ -1,5 +1,6 @@
 #!/bin/bash
 PATH=$PATH:/usr/local/bin
+echo $PATH
 set -ex
 echo "no sudo"
 #apt-get update
