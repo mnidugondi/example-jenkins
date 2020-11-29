@@ -1,5 +1,5 @@
 #!/bin/bash
-PATH=$PATH:/usr/local/bin:/usr/local/Homebrew/bin
+#PATH=$PATH:/usr/local/bin:/usr/local/Homebrew/bin
 echo "path: "
 echo $PATH
 set -ex
