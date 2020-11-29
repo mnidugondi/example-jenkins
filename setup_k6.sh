@@ -1,5 +1,5 @@
 #!/bin/bash
-#PATH=$PATH:/usr/local/bin:/usr/local/Homebrew/bin
+Path=$PATH:/usr/local/bin:/usr/local/Homebrew/bin
 export PATH=/usr/local/bin:$PATH
 echo "path: "
 echo $PATH
