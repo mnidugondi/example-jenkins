@@ -12,4 +12,4 @@ echo "no sudo"
 #apt-get update
 pwd
 cd /usr/local/bin
-brew reinstall k6
+var/usr/local/bin/brew reinstall k6
