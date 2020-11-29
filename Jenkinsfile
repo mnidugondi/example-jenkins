@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        PATH="/usr/local/Homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin::$PATH"
+   }
     stages {
         stage('Performance Testing') {
             steps {
