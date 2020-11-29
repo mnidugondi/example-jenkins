@@ -1,5 +1,6 @@
 #!/bin/bash
 #PATH=$PATH:/usr/local/bin:/usr/local/Homebrew/bin
+export PATH=/usr/local/bin:$PATH
 echo "path: "
 echo $PATH
 set -ex
@@ -10,5 +11,4 @@ echo "no sudo"
 #echo "deb https://dl.bintray.com/loadimpact/deb stable main" | sudo tee -a /etc/apt/sources.list
 #apt-get update
 pwd
-sh 'printenv'
 brew reinstall k6
