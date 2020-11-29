@@ -11,4 +11,5 @@ echo "no sudo"
 #echo "deb https://dl.bintray.com/loadimpact/deb stable main" | sudo tee -a /etc/apt/sources.list
 #apt-get update
 pwd
+cd /usr/local/bin
 brew reinstall k6
