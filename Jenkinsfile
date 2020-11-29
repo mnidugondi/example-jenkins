@@ -7,6 +7,7 @@ pipeline {
         stage('Performance Testing') {
             steps {
                 echo 'Installing k6 without sudo'
+                sh "chmod +x -R ${env.WORKSPACE}"
                 sh 'chmod +x setup_k6.sh'
                 sh './setup_k6.sh'
                 echo 'Running K6 performance tests...'
